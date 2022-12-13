@@ -12,9 +12,6 @@ let Max = 0
 let Min = 0
 Min = 50
 Max = 0
-basic.forever(function () {
-	
-})
 loops.everyInterval(900000, function () {
     Homerseklet = input.temperature()
     if (Min > Homerseklet) {
